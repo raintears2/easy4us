@@ -16,7 +16,7 @@ Change into that folder and install the pip requirements
 ```
 git clone https://github.com/ip-rw/easy4us
 cd easy4us
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 Then follow as outlined below to use the command line.
 
@@ -41,6 +41,6 @@ decode directories with easytoyou.eu
 
 For example:
 ```
-python main.py -u USERNAME -p PASSWORD -s SOURCEDIR -o DESTDIR -w 
+python3 main.py -u USERNAME -p PASSWORD -s SOURCEDIR -o DESTDIR -w 
 ```
 Check the site make sure you're using the correct decoder - I don't know how often they update these so any issues with the default check it first.
